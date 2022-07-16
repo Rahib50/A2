@@ -1,5 +1,5 @@
 #This algorithm looks through a sorted list to find a match with input
-#Much more efficient than linear search which will be made apparent by the number if iterations needed for result.
+#Much more efficient than linear search which will be made apparent by the number of iterations needed for result.
 
 def Bin(alist, upper, lower, inp):
     counter = 0
