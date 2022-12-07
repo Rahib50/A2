@@ -44,7 +44,7 @@ class tree:
             if self.right is None: return "Item not found" #Same base case
             return self.right.search(item)
         
-        else: return "data not found"
+        else: return "data found!"
 
     #print method to return all elements from leftmost to rightmost
     def print_tree(self):
